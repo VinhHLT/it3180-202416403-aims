@@ -1,3 +1,3 @@
-# Thảo luận Lab 03
-1. Merge base là tổ tiên chung gần nhất của hai nhánh khi thực hiện merge.
-2. Nhánh master và release/* là nhánh dùng chung đã chia sẻ, phải dùng git revert để tạo commit đảo ngược thay vì xóa lịch sử bằng reset.
+# Câu hỏi thảo luận Lab 03
+1. Merge base là tổ tiên chung gần nhất của hai nhánh, dùng trong thuật toán 3-way merge để phát hiện conflict khi hai nhánh cùng sửa một vùng code.
+2. Trên master và release/* phải dùng git revert thay vì reset vì reset xóa lịch sử (viết lại lịch sử), vi phạm bảo vệ nhánh, trong khi revert tạo commit đảo ngược giữ nguyên lịch sử kiểm toán.
